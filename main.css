@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: coral;
+    color: green;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-list {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.menu-btn {
+    border: none;
+    list-style: none;
+    padding: 10px 25px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
